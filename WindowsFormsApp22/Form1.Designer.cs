@@ -228,6 +228,68 @@ namespace WindowsFormsApp22
             this.comboBoxFuel.TabIndex = 6;
             // 
 
+            this.groupBoxFuel.Controls.Add(this.label5);
+            this.groupBoxFuel.Controls.Add(this.toPayGasStation);
+            this.groupBoxFuel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.groupBoxFuel.Location = new System.Drawing.Point(6, 185);
+            this.groupBoxFuel.Name = "groupBoxFuel";
+            this.groupBoxFuel.Size = new System.Drawing.Size(217, 74);
+            this.groupBoxFuel.TabIndex = 5;
+            this.groupBoxFuel.TabStop = false;
+            this.groupBoxFuel.Text = "К оплате";
+            // 
+
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(149, 58);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(27, 13);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "грн.";
+            // 
+
+            this.toPayGasStation.Font = new System.Drawing.Font("", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.toPayGasStation.ForeColor = System.Drawing.Color.Black;
+            this.toPayGasStation.Location = new System.Drawing.Point(6, 16);
+            this.toPayGasStation.Name = "toPayGasStation";
+            this.toPayGasStation.Size = new System.Drawing.Size(136, 55);
+            this.toPayGasStation.TabIndex = 11;
+            this.toPayGasStation.Text = "0,00";
+            this.toPayGasStation.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+
+            this.groupBox2.Controls.Add(this.CokoColaCount);
+            this.groupBox2.Controls.Add(this.CokoColaPrice);
+            this.groupBox2.Controls.Add(this.FrenchFriesCount);
+            this.groupBox2.Controls.Add(this.FrenchFriesPrice);
+            this.groupBox2.Controls.Add(this.HamburgerCount);
+            this.groupBox2.Controls.Add(this.HamburgerPrice);
+            this.groupBox2.Controls.Add(this.HotDogCount);
+            this.groupBox2.Controls.Add(this.HotDogPrice);
+            this.groupBox2.Controls.Add(this.CokoColaCheckBox);
+            this.groupBox2.Controls.Add(this.FrenchFriesCheckBox);
+            this.groupBox2.Controls.Add(this.HamburgerCheckBox);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.groupBox4);
+            this.groupBox2.Controls.Add(this.HotDogCheckBox);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.groupBox2.Location = new System.Drawing.Point(263, 12);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(219, 265);
+            this.groupBox2.TabIndex = 4;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Мини-Кафе";
+            // 
+
+            this.CokoColaCount.Location = new System.Drawing.Point(160, 127);
+            this.CokoColaCount.Name = "CokoColaCount";
+            this.CokoColaCount.ReadOnly = true;
+            this.CokoColaCount.Size = new System.Drawing.Size(48, 20);
+            this.CokoColaCount.TabIndex = 23;
+            this.CokoColaCount.Text = "0,00";
+            // 
+
 
         }
 
