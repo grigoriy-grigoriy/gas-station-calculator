@@ -290,6 +290,112 @@ namespace WindowsFormsApp22
             this.CokoColaCount.Text = "0,00";
             // 
 
+            this.CokoColaPrice.Location = new System.Drawing.Point(106, 127);
+            this.CokoColaPrice.Name = "CokoColaPrice";
+            this.CokoColaPrice.ReadOnly = true;
+            this.CokoColaPrice.Size = new System.Drawing.Size(48, 20);
+            this.CokoColaPrice.TabIndex = 22;
+            this.CokoColaPrice.Text = "18,00";
+            // 
+
+            this.FrenchFriesCount.Location = new System.Drawing.Point(160, 98);
+            this.FrenchFriesCount.Name = "FrenchFriesCount";
+            this.FrenchFriesCount.ReadOnly = true;
+            this.FrenchFriesCount.Size = new System.Drawing.Size(48, 20);
+            this.FrenchFriesCount.TabIndex = 21;
+            this.FrenchFriesCount.Text = "0,00";
+            // 
+
+            this.FrenchFriesPrice.Location = new System.Drawing.Point(106, 98);
+            this.FrenchFriesPrice.Name = "FrenchFriesPrice";
+            this.FrenchFriesPrice.ReadOnly = true;
+            this.FrenchFriesPrice.Size = new System.Drawing.Size(48, 20);
+            this.FrenchFriesPrice.TabIndex = 20;
+            this.FrenchFriesPrice.Text = "32,00";
+            // 
+
+            this.HamburgerCount.Location = new System.Drawing.Point(160, 67);
+            this.HamburgerCount.Name = "HamburgerCount";
+            this.HamburgerCount.ReadOnly = true;
+            this.HamburgerCount.Size = new System.Drawing.Size(48, 20);
+            this.HamburgerCount.TabIndex = 19;
+            this.HamburgerCount.Text = "0,00";
+            // 
+
+            this.HamburgerPrice.Location = new System.Drawing.Point(106, 67);
+            this.HamburgerPrice.Name = "HamburgerPrice";
+            this.HamburgerPrice.ReadOnly = true;
+            this.HamburgerPrice.Size = new System.Drawing.Size(48, 20);
+            this.HamburgerPrice.TabIndex = 18;
+            this.HamburgerPrice.Text = "20,00";
+            // 
+
+            this.HotDogCount.Location = new System.Drawing.Point(160, 37);
+            this.HotDogCount.Name = "HotDogCount";
+            this.HotDogCount.ReadOnly = true;
+            this.HotDogCount.Size = new System.Drawing.Size(48, 20);
+            this.HotDogCount.TabIndex = 17;
+            this.HotDogCount.Text = "0,00";
+            // 
+
+            this.HotDogPrice.Location = new System.Drawing.Point(106, 37);
+            this.HotDogPrice.Name = "HotDogPrice";
+            this.HotDogPrice.ReadOnly = true;
+            this.HotDogPrice.Size = new System.Drawing.Size(48, 20);
+            this.HotDogPrice.TabIndex = 16;
+            this.HotDogPrice.Text = "45,00";
+            // 
+
+            this.CokoColaCheckBox.AutoSize = true;
+            this.CokoColaCheckBox.ForeColor = System.Drawing.Color.Black;
+            this.CokoColaCheckBox.Location = new System.Drawing.Point(6, 127);
+            this.CokoColaCheckBox.Name = "CokoColaCheckBox";
+            this.CokoColaCheckBox.Size = new System.Drawing.Size(75, 17);
+            this.CokoColaCheckBox.TabIndex = 10;
+            this.CokoColaCheckBox.Text = "Coka-Cola";
+            this.CokoColaCheckBox.UseVisualStyleBackColor = true;
+            // 
+
+            this.FrenchFriesCheckBox.AutoSize = true;
+            this.FrenchFriesCheckBox.ForeColor = System.Drawing.Color.Black;
+            this.FrenchFriesCheckBox.Location = new System.Drawing.Point(6, 98);
+            this.FrenchFriesCheckBox.Name = "FrenchFriesCheckBox";
+            this.FrenchFriesCheckBox.Size = new System.Drawing.Size(99, 17);
+            this.FrenchFriesCheckBox.TabIndex = 9;
+            this.FrenchFriesCheckBox.Text = "Картошка фри";
+            this.FrenchFriesCheckBox.UseVisualStyleBackColor = true;
+            // 
+
+            this.HamburgerCheckBox.AutoSize = true;
+            this.HamburgerCheckBox.ForeColor = System.Drawing.Color.Black;
+            this.HamburgerCheckBox.Location = new System.Drawing.Point(6, 67);
+            this.HamburgerCheckBox.Name = "HamburgerCheckBox";
+            this.HamburgerCheckBox.Size = new System.Drawing.Size(80, 17);
+            this.HamburgerCheckBox.TabIndex = 8;
+            this.HamburgerCheckBox.Text = "Гамбургер";
+            this.HamburgerCheckBox.UseVisualStyleBackColor = true;
+            // 
+
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(147, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(66, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Количество";
+            // 
+
+            this.groupBox4.Controls.Add(this.toPayCafe);
+            this.groupBox4.Controls.Add(this.label6);
+            this.groupBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.groupBox4.Location = new System.Drawing.Point(6, 185);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(207, 74);
+            this.groupBox4.TabIndex = 6;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "К оплате";
+            // 
+
 
         }
 
