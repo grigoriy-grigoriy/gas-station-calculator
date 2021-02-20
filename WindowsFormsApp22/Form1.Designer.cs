@@ -161,6 +161,72 @@ namespace WindowsFormsApp22
             this.label3.Text = "Топливо";
             // 
 
+            this.groupBox6.Controls.Add(this.radioButtonSum);
+            this.groupBox6.Controls.Add(this.radioButtonCount);
+            this.groupBox6.Location = new System.Drawing.Point(6, 115);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(103, 64);
+            this.groupBox6.TabIndex = 15;
+            this.groupBox6.TabStop = false;
+            // 
+
+            this.radioButtonSum.AutoSize = true;
+            this.radioButtonSum.ForeColor = System.Drawing.Color.Black;
+            this.radioButtonSum.Location = new System.Drawing.Point(9, 38);
+            this.radioButtonSum.Name = "radioButtonSum";
+            this.radioButtonSum.Size = new System.Drawing.Size(59, 17);
+            this.radioButtonSum.TabIndex = 1;
+            this.radioButtonSum.Text = "Сумма";
+            this.radioButtonSum.UseVisualStyleBackColor = true;
+            // 
+
+            this.radioButtonCount.AutoSize = true;
+            this.radioButtonCount.Checked = true;
+            this.radioButtonCount.ForeColor = System.Drawing.Color.Black;
+            this.radioButtonCount.Location = new System.Drawing.Point(9, 9);
+            this.radioButtonCount.Name = "radioButtonCount";
+            this.radioButtonCount.Size = new System.Drawing.Size(84, 17);
+            this.radioButtonCount.TabIndex = 0;
+            this.radioButtonCount.TabStop = true;
+            this.radioButtonCount.Text = "Количество";
+            this.radioButtonCount.UseVisualStyleBackColor = true;
+            // 
+
+            this.textBoxRadioCount.Location = new System.Drawing.Point(119, 121);
+            this.textBoxRadioCount.Name = "textBoxRadioCount";
+            this.textBoxRadioCount.Size = new System.Drawing.Size(69, 20);
+            this.textBoxRadioCount.TabIndex = 14;
+            this.textBoxRadioCount.Text = "0,00";
+            // 
+
+            this.textBoxRadioSum.Location = new System.Drawing.Point(119, 157);
+            this.textBoxRadioSum.Name = "textBoxRadioSum";
+            this.textBoxRadioSum.ReadOnly = true;
+            this.textBoxRadioSum.Size = new System.Drawing.Size(69, 20);
+            this.textBoxRadioSum.TabIndex = 13;
+            this.textBoxRadioSum.Text = "0,00";
+            // 
+
+            this.textBoxFuelPrice.Location = new System.Drawing.Point(72, 79);
+            this.textBoxFuelPrice.Name = "textBoxFuelPrice";
+            this.textBoxFuelPrice.ReadOnly = true;
+            this.textBoxFuelPrice.Size = new System.Drawing.Size(121, 20);
+            this.textBoxFuelPrice.TabIndex = 11;
+            // 
+
+            this.comboBoxFuel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxFuel.FormattingEnabled = true;
+            this.comboBoxFuel.Items.AddRange(new object[] {
+            "АИ-92",
+            "АИ-95",
+            "АИ-98",
+            "Газ",
+            "Дизтопливо"});
+            this.comboBoxFuel.Location = new System.Drawing.Point(72, 36);
+            this.comboBoxFuel.Name = "comboBoxFuel";
+            this.comboBoxFuel.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxFuel.TabIndex = 6;
+            // 
 
 
         }
